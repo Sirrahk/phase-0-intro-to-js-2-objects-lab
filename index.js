@@ -1,8 +1,8 @@
 // Write your solution in this file!
 //Initialize employee object
 const employee = {
-    employeeName: "Theresa Cates",
-    streetAddress: "505 Rockland Gardens Apt NY 10960"
+    employeeName: "Courtney Harris",
+    streetAddress: "6 Anna St. Nyack, NY 10960"
 }
 //Function to NONDESTRUCTIVELY update Employee object
 const updateEmployeeWithKeyAndValue = (obj, key, value) => {
@@ -11,7 +11,6 @@ const updateEmployeeWithKeyAndValue = (obj, key, value) => {
     return updatedEmployee;
 
 }
-//console.log(updateEmployeeWithKeyAndValue(employee, "employeeName", "Theresa Lynn Cates"));
 
 //Function to DESTRUCTIVELY update Employee object
 const destructivelyUpdateEmployeeWithKeyAndValue =(obj, key, value) => {
